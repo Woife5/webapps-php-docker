@@ -1,0 +1,5 @@
+# Ignore the actual symfony project
+app
+
+# Ignore macOS files
+.DS_Store
