@@ -1,4 +1,4 @@
-# Webapps Docker Image
+# Webapps PHP Docker Image
 
 ## Installation
 1. Download and Install [Docker](https://www.docker.com/get-started "How to install docker")
