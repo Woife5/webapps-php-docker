@@ -3,7 +3,7 @@
 ## Installation
 1. Download and Install [Docker](https://www.docker.com/get-started "How to install docker")
 2. Clone this git repository `git clone https://github.com/Woife5/webapps-php-docker.git`
-3. Create a folder called "app". The Symfony project will be installed in this folder.
+3. Create a folder called "app". The Symfony project will be installed in this folder. Aditionally you may want to change the default git name and email in `./php/Dockerfile` to your name and email.
 4. Run `docker-compose up --build` within `webapps-php-docker` to start the containers. Aditionally you can use the `-d` flag to make the containers run in the background.
 5. Open the docker dashboard and go to "Containers/Apps".
 6. Expand `webapps-php-docker` and open the cli of the `php` container: ![Docker Dashboard](https://i.ibb.co/tHnMqr4/dockerdashboard.png)

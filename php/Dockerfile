@@ -15,5 +15,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN curl -sS https://get.symfony.com/cli/installer | bash
 RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
-RUN git config --global user.email "s1910238070@students.fh-ooe.at" \ 
-    && git config --global user.name "Wolfgang Schwendtbauer"
+RUN git config --global user.email "Max@Mustermann.at" \ 
+    && git config --global user.name "Max Mustermann"
