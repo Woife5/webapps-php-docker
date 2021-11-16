@@ -17,6 +17,8 @@ Download and Install [Docker](https://www.docker.com/get-started "How to install
 
 When the command is finished and the project was created sucessfully you can `exit` the terminal again. You should now see the symfony files within the "app" folder.
 
+You can now edit the files in the "app" folder and the changes should automatically be reflected in the docker container and the web server. 
+
 You can now navigate to [localhost:3000](http://localhost:3000) to access your project.
 
 ## Starting the image
@@ -27,6 +29,6 @@ After the fist time you can also start the image by opening the docker dashboard
 When the containers are finished starting up, your project should be accessible at [localhost:3000](http://localhost:3000).
 
 ## Stopping the image
-To stop the containers run ```docker-compose down``` if you started the container with the `-d` flag or just push ```ctrl + c``` in the terminal that is running the containers.
+To stop the containers run ```docker-compose stop``` if you started the container with the `-d` flag or just push ```ctrl + c``` in the terminal that is running the containers.
 
 You can also stop the containers via the docker dashboard by going to the "Containers/Apps" tab and clicking on the Stop-button next to the `webapps-php-docker` app.
