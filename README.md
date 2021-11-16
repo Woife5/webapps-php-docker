@@ -1,6 +1,6 @@
 # Webapps PHP Docker Image
 
-## Installation
+## Docker Image Installation
 Download and Install [Docker](https://www.docker.com/get-started "How to install docker") if you do not already have it.
 
 1. Make sure docker is running. If not just open the Docker Desktop application (Docker Dashboard).
@@ -10,6 +10,7 @@ Download and Install [Docker](https://www.docker.com/get-started "How to install
 
 ![Docker installation is ready](https://i.ibb.co/yRPBYvs/Container-Ready.png)
 
+### Creating an empty symfony project
 5. Open the docker dashboard and go to "Containers/Apps".
 6. Expand `webapps-php-docker` and open the cli of the `php` container: ![Docker Dashboard](https://i.ibb.co/tHnMqr4/dockerdashboard.png)
 7. In the newly opend terminal run `symfony new --full .` to crete a new symfony project: ![Terminal Window](https://i.ibb.co/PMH8tmg/dockerterminal.png)
