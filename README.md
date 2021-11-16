@@ -3,6 +3,8 @@
 ## Docker Image Installation
 Download and Install [Docker](https://www.docker.com/get-started "How to install docker") if you do not already have it.
 
+To use this image on Windows you will need to have WSL 2 installed. The docker installer will help you set it up.
+
 1. Make sure docker is running. If not just open the Docker Desktop application (Docker Dashboard).
 2. Clone this git repository `git clone https://github.com/Woife5/webapps-php-docker.git`
 3. Create a folder called "app". The Symfony project will be installed in this folder. Additionally you may want to change the default git name and email in `./php/Dockerfile` to your name and email.
