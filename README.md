@@ -7,7 +7,7 @@ To use this image on Windows you will need to have WSL 2 installed. The docker i
 
 1. Make sure docker is running. If not just open the Docker Desktop application (Docker Dashboard).
 2. Clone this git repository `git clone https://github.com/Woife5/webapps-php-docker.git`
-3. Create a folder called "app". The Symfony project will be installed in this folder. Additionally you may want to change the default git name and email in `./php/Dockerfile` to your name and email.
+3. Create a folder called "app" and another folder called "mysql". The Symfony project will be installed in the "app" folder, the database files will be saved into the "mysql" folder. Additionally you may want to change the default git name and email in `./php/Dockerfile` to your name and email.
 4. Run `docker-compose up --build` within `webapps-php-docker` to start the containers. As soon as you see something like the following message, the installation is done and you can move to the next step:
 
 ![Docker installation is ready](https://i.ibb.co/yRPBYvs/Container-Ready.png)
@@ -22,6 +22,8 @@ When the command is finished and the project was created sucessfully you can `ex
 You can now edit the files in the "app" folder and the changes should automatically be reflected in the docker container and the web server. 
 
 You can now navigate to [localhost:3000](http://localhost:3000) to access your project.
+
+The default user and password for the database are "root:root". You can change this in the docker-compose.yml file.
 
 ## Starting the image
 Start the Docker image by running ```docker-compose up``` within the `webapps-php-docker` folder. You can use the `-d` flag to start the containers in the background.
