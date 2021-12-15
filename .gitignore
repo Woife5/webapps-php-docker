@@ -1,6 +1,6 @@
 # Ignore the actual symfony project and database files
-app
-mysql
+app*
+mysql*
 
 # Ignore macOS files
 .DS_Store
